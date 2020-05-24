@@ -1,0 +1,37 @@
+
+.register-header{
+    background-image: linear-gradient(to right, darkcyan , blueviolet);
+}
+
+.register-btn{
+    background-image: linear-gradient( to right , blue ,darkblue);
+}
+
+.register-btn:hover{
+    background-image: linear-gradient( to right , cornflowerblue ,darkorchid);
+}
+
+.register-bg {
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.register-bg::after {
+    content: "";
+    background-image: url(../images/fashion-bg.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-size: contain;
+    z-index: -1;
+}
+
+.reg-side-img{
+    height: 550px;
+    position: relative;
+
+}
