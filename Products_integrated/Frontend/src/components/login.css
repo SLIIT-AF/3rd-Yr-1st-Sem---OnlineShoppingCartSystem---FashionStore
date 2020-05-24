@@ -1,0 +1,32 @@
+
+.login-bg {
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.login-bg::after {
+    content: "";
+    background-image: url(../images/fashion-bg.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.login-header{
+    background-image: linear-gradient(to right, darkcyan , blueviolet);
+}
+
+.login-btn{
+    background-image: linear-gradient( to bottom , cadetblue ,blue);
+}
+
+.login-w{
+    width: 600px;
+}
